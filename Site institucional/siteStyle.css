@@ -1,0 +1,115 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0%;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container ul {
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: orange;
+}
+
+.header .container h1 {
+    color: aqua;
+}
+
+/*quando a estilização for troca de cor, fonte é possivel pular a hierarquia*/
+.header a {
+    text-decoration: none;
+    color: orange;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+#aqui {
+    font-weight: 1000;
+    color: #e3b062;
+}
+.banner {
+    background-image: url("/Imagens/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+}
+
+.banner .container p {
+    font-size: 36px;
+    color: white;
+    width: 280px;
+}
+
+.social {
+    display: flex;
+    background-color: #e5e5e5;
+}
+
+.social .container {
+    justify-content: center;
+}
+
+.social .container .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img {
+    width: 100px;
+}
+
+.box {
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(4, 4, 71);
+}
+
+.footer .container .version {
+    font-size: 12px;
+    font-weight: 800;
+    color: #e5e5e5;
+}
+
+.footer .container {
+    color: #e5e5e5;
+}
+
