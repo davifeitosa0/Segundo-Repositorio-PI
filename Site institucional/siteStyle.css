@@ -47,7 +47,7 @@ body {
     color: #e3b062;
 }
 .banner {
-    background-image: url("/Imagens/bg-jelly-fish-para_outras_pags.png");
+    background-image: url("Imagens/bg-jelly-fish-para_outras_pags.png");
     background-size: cover;
     margin-bottom: 20px;
 }
